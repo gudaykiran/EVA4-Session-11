@@ -7,15 +7,19 @@ For Session 11 the new modules are Data Transforms which includes some features 
 
 Modules are 1. Loading Data 2. Transforming the data (including albumentation transforms) 3. Building the Basic Model 4. New Model 5. Including LR finder to find the learning rate 6. Training and testing the model 7. Plotting One Cycle LR 8. Plotting the Triangular Curve 9. Plotting the Training AND Test accuracies. 10. Plotting the Misclassified images 
 
-Modules Description:      
+Modules Description:
+
 I.	Loading CIFAR 10 Datasets.
+
 II.	Transformations done: Albumentations : 
+
 1.	Rotate, 
 2.	Adding PadIfneeded(40), 
 3.	Horizontal flip, 
 4.	RandomCrop(32), 
 5.	RGB Shift, Normalize, 
 6.	Cutout strategy of 8 Holes
+
 III.	Loading and running Train dataset and Test dataset:
 
 
